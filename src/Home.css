@@ -1,0 +1,119 @@
+.home{
+  font-family: "Roboto", sans-serif;
+}
+
+.home .home-header{
+  position: relative;
+  height: 37rem;
+}
+
+.home .home-header .bg-image{
+  background-image: url("img/15017.png");
+  background-position: 50% 70%;
+  background-size: cover;
+  position: absolute;
+
+  left:0;
+	right:0;
+	top:0;
+  bottom:0;
+
+  z-index: 1;
+}
+
+.home .home-header .content{
+  position:relative;
+  z-index:2;
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0 3rem 0 3rem;
+}
+
+.content .elementor-widget-divider{
+  height:5px;
+  width: 15vw;
+  background-color: white;
+  margin-bottom: 3rem;
+}
+
+.home-header-branding{
+  display:flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  font-size:38px;
+  letter-spacing: 1px;
+  font-weight: 200;
+  color: white;
+  margin: 8rem 0 3rem 0;
+}
+
+.first-fact{
+  margin:6rem 0 6rem 0;
+  padding:0 3rem 0 3rem;
+}
+
+.first-fact-content{
+  font-size: 20px;
+  line-height: 1.7em;
+  font-weight:400;
+  font-style:italic;
+  color: #7a7a7a;
+}
+
+.first-fact-profile{
+  display:flex;
+  justify-content: center;
+  margin-top: 2rem;
+  align-items: center;
+
+}
+
+.first-fact-profile-picture img{
+  border-radius: 50%;
+}
+
+.first-fact-profile-presentation{
+  display:flex;
+  margin-left:1.5rem;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.first-fact-profile-presentation .name{
+  color: #6EC1E4;
+  font-size: 19px;
+  letter-spacing: 1.1px;
+  font-weight: 600;
+}
+
+.first-fact-profile-presentation .job{
+  color: rgba(0,0,0,0.25);
+}
+
+
+@media (min-width: 765px) {
+  .home-header-branding{
+    font-size:42px;
+  }
+
+  .first-fact-content{
+    font-size: 22px;
+  }
+
+  .home .home-header .content{
+    padding:0;
+  }
+}
+
+@media (min-width: 1025px) {
+  .home-header-branding{
+    font-size:55px;
+    line-height: 1.6em;
+  }
+
+  .first-fact-content{
+    font-size: 27px;
+    line-height: 1.9em;
+  }
+}
