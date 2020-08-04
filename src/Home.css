@@ -4,7 +4,7 @@
 
 .home .home-header{
   position: relative;
-  height: 37rem;
+  height: 42rem;
 }
 
 .home .home-header .bg-image{
@@ -45,7 +45,7 @@
   letter-spacing: 1px;
   font-weight: 200;
   color: white;
-  margin: 8rem 0 3rem 0;
+  margin: 13rem 0 3rem 0;
 }
 
 .first-fact{
