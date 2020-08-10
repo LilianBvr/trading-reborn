@@ -1,4 +1,5 @@
 import React, { useRef, useEffect} from 'react';
+import { Link } from 'react-router-dom'
 
 import './Home.css'
 
@@ -10,7 +11,7 @@ const Home = () => {
 
     function parallax (e){
         var scrolled = window.pageYOffset
-        bgImage.current.style.top = - (scrolled * 0.5) + 'px'
+        bgImage.current.style.top = - (scrolled * 0.2) + 'px'
     }
 
     //componentDidMount :
@@ -88,6 +89,35 @@ const Home = () => {
             ></img>
           </div>
         </div>
+      </section>
+
+      <section class='bloc-3'>
+        <div class='bloc-3_content'>
+          <div class='bloc-3_img'>
+            <img
+                src={require('./img/4023367.jpg')}
+                alt=''
+            ></img>
+          </div>
+          <div class='bloc-3_container-2'>
+            <div class='bloc-3_widget-divider'></div>
+            <div class='bloc-3_text-content'>
+              <div class='bloc-3_text-content_title'>
+                NOUS SOMMES LÀ POUR TOI !
+              </div>
+              <div class='bloc-3_text-content_list'>
+                <ul>
+                  <li>Nous avons crée une formation de trois modules pour toi !</li>
+                  <li>On va t’accompagner dans tes premiers trades, jusqu’à ta réussite.</li>
+                </ul>
+              </div>
+              <Link to='/rejoindre' class='bloc-3_text-content_answer'>
+                OBTIENS TA FORMATION GRATUITE
+              </Link>
+            </div>
+          </div>
+        </div>
+        
       </section>
       
     </div>
