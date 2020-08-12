@@ -1,5 +1,6 @@
 import React, { useRef, useEffect} from 'react';
 import { Link } from 'react-router-dom'
+import CountTo from 'react-count-to';
 
 import './Home.css'
 
@@ -203,9 +204,11 @@ const Home = () => {
       </section>
 
       <section class='bloc-7'>
-        <div class='bloc-7_counter'>
-          62
-        </div>
+        <CountTo to={62} speed={1300}>
+          {
+            value => <div class='bloc-7_counter'>{value}</div>
+          }
+        </CountTo>
         <div class='bloc-7_counter-text'>
           Personnes nous ont déjà rejoint
         </div>
