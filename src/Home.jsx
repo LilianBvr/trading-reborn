@@ -146,6 +146,49 @@ const Home = () => {
           </div>
         </div>
       </section>
+
+      <section class='bloc-5'>
+        <div class='bloc-5_content'>
+          <div class='bloc-5_content_title'>LES TÉMOIGNAGES DE NOS MEMBRES</div>
+          <div class='bloc-5_widget-divider'></div>
+
+          <div class='bloc-5_tems'>
+            <div class=' bloc-5_tem tem-1'>
+              <div class='bloc-5_tem_picture'>
+                <img
+                  src={require('./img/edouard.jpg')}
+                  alt=''
+                ></img>
+              </div>
+              <div class='bloc-5_tem_text-container'>
+                <div class='bloc-5_tem_name'>
+                  Édouard
+                </div>
+                <div class='bloc-5_tem_text'>
+                  "Avant j'avais du mal avec le trading, je ne comprenais pas grand chose, j'ai perdu tout mon capital de départ. Après mon adhésion chez TradingReborn je suis passé à un revenu passif de <strong>1000€</strong> par mois environ."
+                </div>
+              </div>
+            </div>
+
+            <div class='bloc-5_tem tem-2'>
+              <div class='bloc-5_tem_picture'>
+                <img
+                  src={require('./img/pierre.jpg')}
+                  alt=''
+                ></img>
+              </div>
+              <div class='bloc-5_tem_text-container'>
+                <div class='bloc-5_tem_name'>
+                  Pierre
+                </div>
+                <div class='bloc-5_tem_text'>
+                  "La bourse est un milieu très compliqué. Je me suis fais arnaqué par mon premier broker et ça m'a vite découragé. J'ai eu la chance de rencontrer Arnaud lors d'un meeting à Paris qui m'a conseillé d'intégrer le groupe. Depuis je gagne le <strong>double de mon ancien salaire</strong> ! Merci."             </div>
+                </div>
+              </div>
+          </div>
+        </div>
+          
+      </section>
       
     </div>
   );
