@@ -189,6 +189,31 @@ const Home = () => {
         </div>
           
       </section>
+
+      <section class='bloc-6'>
+        <h2 class='bloc-6_title'>
+          JE VEUX ÊTRE LIBRE FINANCIÈREMENT
+        </h2>
+        <div class='bloc-6_muted-text'>
+          En 1 clique
+        </div>
+        <Link to='/rejoindre' class='bloc-6_button'>
+          REJOINS LA COMMUNAUTÉ
+        </Link>
+      </section>
+
+      <section class='bloc-7'>
+        <div class='bloc-7_counter'>
+          62
+        </div>
+        <div class='bloc-7_counter-text'>
+          Personnes nous ont déjà rejoint
+        </div>
+      </section>
+
+      <footer class='mentions'>
+        © 2020 - TRADING REBORN | All rights reserved 
+      </footer>
       
     </div>
   );
