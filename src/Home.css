@@ -137,53 +137,52 @@
 }
 
 @media (max-width: 900px){
-  .second-fact, .bloc-3_content{
+  .second-fact, .bloc-3_content, .bloc-4_content{
     flex-direction: column;
     align-items: center;
     padding-top: 2rem;
   }
 
-  .bloc-3_content{
-    flex-direction: column-reverse;
+  .bloc-3_content, .bloc-4_content{
+    flex-direction: column-reverse !important;
   }
 
-  .second-fact_first-container, .bloc-3_container-2{
+  .second-fact_first-container, .bloc-3_container-2, .bloc-4_container-2{
     align-items: center !important;
-    margin-bottom: 5rem;
+    margin-bottom: 5rem !important;
   }
 
-  .bloc-3_widget-divider{
+  .bloc-3_widget-divider, .bloc-4_widget-divider{
     align-self: auto !important;
   }
 
-  .second-fact_text-content_question, .bloc-3_text-content_title{
+  .second-fact_text-content_question, .bloc-3_text-content_title, .bloc-4_text-content_title{
     font-size:33px !important;
     text-align: center !important;
   }
 
-  .second-fact_text-content, .bloc-3_text-content{
-    align-items: center;
+  .second-fact_text-content, .bloc-3_text-content, .bloc-4_text-content{
+    align-items: center !important;
     display:flex;
     flex-direction: column;
   }
 
-  .second-fact_text-content_list ul, .bloc-3_text-content_list ul{
-    padding-left: 0 !important;
-    align-items: center !important;
+  .second-fact_text-content_list ul, .bloc-3_text-content_list ul, .bloc-4_text-content_list ul{
+    text-align: justify !important;
   }
 
-  .second-fact_text-content_list li, .bloc-3_text-content_list li{
+  .second-fact_text-content_list li, .bloc-3_text-content_list li, .bloc-4_text-content_list li{
     font-size: 14px;
   }
 
 }
 
 @media (max-width: 700px){
-  .second-fact_text-content_question, .bloc-3_text-content_title{
+  .second-fact_text-content_question, .bloc-3_text-content_title .bloc-4_text-content_title{
     font-size:27px !important;
   }
 
-  .second-fact_text-content_list li, .bloc-3_text-content_list li{
+  .second-fact_text-content_list li, .bloc-3_text-content_list li, .bloc-4_text-content_list li{
     margin-left:1rem;
   }
 }
@@ -254,7 +253,7 @@
 
   display: flex;
   align-items: center;
-  justify-content: space-around;
+  justify-content: center;
 }
 
 .bloc-3_container-2{
@@ -262,6 +261,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  margin-left: 2rem;
 }
 
 .bloc-3_img img{
@@ -328,5 +328,106 @@
 .bloc-3_text-content_answer:hover{
   color:#6EC1E4;
 }
+
+
+.bloc-4{
+  border-top: 1px solid #DFDFDF;
+  background-color: rgba(241,243,245,0.5);
+
+  padding: 6rem 0 6rem 0;
+}
+
+.bloc-4_content{
+
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  justify-content: center;
+}
+
+.bloc-4_container-2{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  margin: 0 3rem 0 3rem;
+}
+
+.bloc-4_img img{
+  width: 23rem;
+  opacity: 0.8;
+
+  margin-right: 3rem;
+}
+
+@media( max-width: 700px){
+  .bloc-4_img img{
+    width: 18rem;
+  }
+}
+
+@media( max-width: 900px){
+  .bloc-4_img img{
+    margin: 0 !important;
+  }
+}
+
+.bloc-4_widget-divider{
+  height:5px;
+  width: 20vw;
+  max-width: 110px;
+  background-color: #6EC1E4;
+
+  align-self: flex-start;
+}
+
+.bloc-4_text-content{
+  margin: 3rem 0 0 0;
+  max-width: 35rem;
+
+  display:flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.bloc-4_text-content_list ul{
+  color: #7a7a7a;
+  font-family: "Roboto", Sans-serif;
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 1.8em;
+
+  padding: 2rem 0 2rem 3rem;
+  display:flex;
+  flex-direction: column;
+  align-items: flex-start;
+  text-align: left;
+}
+
+.bloc-4_text-content_title{
+  font-size: 44px;
+  font-weight: 400;
+  text-align: left;
+  line-height: 1;
+  color: #444444;
+}
+
+.bloc-4_text-content_answer{
+  color:#6EC1E4;
+  text-decoration: underline;
+
+  font-size: 15px;
+  font-family: "Roboto", Sans-serif;
+  font-weight: bolder;
+  line-height: 1;
+
+  align-self: center;
+}
+
+.bloc-4_text-content_answer:hover{
+  color:#6EC1E4;
+}
+
 
 

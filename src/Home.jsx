@@ -117,7 +117,34 @@ const Home = () => {
             </div>
           </div>
         </div>
-        
+      </section>
+
+      <section class='bloc-4'>
+        <div class='bloc-4_content'>
+          <div class='bloc-4_img'>
+            <img
+                src={require('./img/1.png')}
+                alt=''
+            ></img>
+          </div>
+          <div class='bloc-4_container-2'>
+            <div class='bloc-4_widget-divider'></div>
+            <div class='bloc-4_text-content'>
+              <div class='bloc-4_text-content_title'>
+                REJOINS NOUS
+              </div>
+              <div class='bloc-4_text-content_list'>
+                <ul>
+                  <li> Nous t’indiquerons chaque trades à prendre</li>
+                  <li>Grâce à TradingReborn bénéficie de 50% de ton capital en plus chez notre broker partenaire</li>
+                </ul>
+              </div>
+              <Link to='/rejoindre' class='bloc-4_text-content_answer'>
+                JE VOUS REJOINS MAINTENANT
+              </Link>
+            </div>
+          </div>
+        </div>
       </section>
       
     </div>
