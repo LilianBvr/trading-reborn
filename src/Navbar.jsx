@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link } from 'react-router-dom'
+import { HashLink as Link } from 'react-router-hash-link';
 
 import './Navbar.css'
 
@@ -8,7 +8,7 @@ const Navbar = () => {
   return (
     <div class='navbar-container'>
       <div class='navbar fixed-top navbar-expand-sm navbar-light bg-light user-select-none'>
-        <Link class="navbar-brand ml-5 " to='/'>
+        <Link class="navbar-brand ml-5 " to='/#!'>
           <img 
             src={require('./img/logo.png')}
             alt="logo"
@@ -24,11 +24,11 @@ const Navbar = () => {
 
             <ul class="navbar-nav ml-auto">
                 <li class='nav-item my-1 mr-sm-2 mr-xs-2'>
-                    <Link class='nav-link px-2 active' to='/'>Accueil</Link>
+                    <Link class='nav-link px-2 active' to='/#!'>Accueil</Link>
                 </li>
                 
                 <li class='nav-item my-1 mx-sm-2'>
-                    <Link class='nav-link px-2 active' to='/contact'>Contact</Link>
+                    <Link class='nav-link px-2 active' to='/#contact'>Contact</Link>
                 </li>
 
                 <li class='nav-item my-1 mx-sm-2'>

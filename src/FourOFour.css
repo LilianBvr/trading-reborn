@@ -3,6 +3,11 @@
     font-family: 'Open Sans', sans-serif;
     text-align: center;
     color: #B0B0B0;
+
+    height: 100vh;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .fourOFour h1{
