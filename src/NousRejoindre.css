@@ -3,8 +3,9 @@
   height: 100vh;
 
   display:flex;
-  align-items: center;
+  align-items: start;
   justify-content: center;
+  padding-top: 8rem;
 }
 
 .nous-rejoindre_content{
