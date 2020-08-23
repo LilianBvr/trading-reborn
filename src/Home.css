@@ -141,6 +141,12 @@ ul{
   justify-content: space-around;
 }
 
+@media(max-width: 400px){
+  .second-fact{
+    padding: 6rem 5vw 6rem 5vw;
+  }
+}
+
 @media (max-width: 900px){
   .second-fact, .bloc-3_content, .bloc-4_content{
     flex-direction: column;
