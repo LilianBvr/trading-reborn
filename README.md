@@ -1,1 +1,3 @@
-## See it here : https://trading-reborn.web.app/
+## trading-reborn
+
+Simple frontend integration using react and deployed on firebase.
